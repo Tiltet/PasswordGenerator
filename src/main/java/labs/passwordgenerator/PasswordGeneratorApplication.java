@@ -9,5 +9,4 @@ public class PasswordGeneratorApplication {
     public static void main(String[] args) {
         SpringApplication.run(PasswordGeneratorApplication.class, args);
     }
-
 }
