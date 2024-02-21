@@ -23,6 +23,7 @@ public class PasswordGeneratorService {
                 .retrieve()
                 .bodyToMono(PasswordGenerator.class)
                 .block();
+
         logger.info("------------------------------------------------------");
         logger.info(response.toString());
         logger.info("------------------------------------------------------");
