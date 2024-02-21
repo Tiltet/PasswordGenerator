@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center"><b><i>Password Generator</i></b></h1>
 <hr>
 <p>This service generates random passwords based on user-specified criteria. It is designed to provide a secure and convenient way to create strong passwords for various applications and services.</p>
@@ -40,3 +41,6 @@
 
 <h2>License</h2>
 <p>The Password Generator service is licensed under the MIT License. See the LICENSE file for details.</p>
+=======
+Password Generator by Java Spring Boot
+>>>>>>> github/master
