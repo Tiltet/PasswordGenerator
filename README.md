@@ -38,9 +38,3 @@
 
 <h2>Contributing</h2>
 <p>Contributions to the Password Generator service are welcome. Please follow the contribution guidelines to submit your changes.</p>
-
-<h2>License</h2>
-<p>The Password Generator service is licensed under the MIT License. See the LICENSE file for details.</p>
-=======
-Password Generator by Java Spring Boot
->>>>>>> github/master
