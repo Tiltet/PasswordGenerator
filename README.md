@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center"><b><i>Password Generator</i></b></h1>
 <hr>
 <p>This service generates random passwords based on user-specified criteria. It is designed to provide a secure and convenient way to create strong passwords for various applications and services.</p>
@@ -10,7 +9,7 @@
 <h2>Example Request</h2>
 <p>Make a GET request to the following endpoint to generate a password:</p>
 <pre>
-    <code>http://localhost:8080/api/v1/password?length=12</code>
+<code>http://localhost:8080/api/v1/password?length=12</code>
 </pre>
 <p>In this example, the service will generate a random password of  12 characters in length.</p>
 
