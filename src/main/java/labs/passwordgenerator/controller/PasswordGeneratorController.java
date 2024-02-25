@@ -1,7 +1,7 @@
 package labs.passwordgenerator.controller;
 
 import labs.passwordgenerator.model.PasswordGenerator;
-import labs.passwordgenerator.service.PasswordService;
+import labs.passwordgenerator.serviсe.PasswordGeneratorService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -10,6 +10,6 @@ public class PasswordGeneratorController {
 
     @GetMapping({"/password"})
     public PasswordGenerator hello(@RequestParam(defaultValue = "5") String length) {
-        return PasswordService.getRequest(length);
+        return PasswordGeneratorService.getRequest(length);
     }
 }
