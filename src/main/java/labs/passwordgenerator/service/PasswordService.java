@@ -12,14 +12,11 @@ public class PasswordService {
     }
 
     public static PasswordGenerator getRequest(String length) {
-        String template = "https://api.api-ninjas.com/v1/passwordgenerator?length=%s";
-        String token = "rWcguFvzEMEe127Sr+jUEQ==uBe90hLtpkoaq8Is";
-        String url = String.format(template, length);
-
+        String url = String.format("https://api.api-ninjas.com/v1/passwordgenerator?length=%s", length);
 
         return WebClient.builder()
                 .baseUrl(url)
-                .defaultHeader("X-Api-Key", token)
+                .defaultHeader("X-Api-Key", "rWcguFvzEMEe127Sr+jUEQ==uBe90hLtpkoaq8Is")
                 .build()
                 .get()
                 .retrieve()
