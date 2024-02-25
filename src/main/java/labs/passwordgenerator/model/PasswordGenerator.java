@@ -1,5 +1,6 @@
 package labs.passwordgenerator.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Data;
 import lombok.extern.jackson.Jacksonized;
@@ -8,5 +9,6 @@ import lombok.extern.jackson.Jacksonized;
 @Builder
 @Jacksonized
 public class PasswordGenerator {
-    private String random_password;
+    @JsonProperty("random_password")
+    private String randomPassword;
 }

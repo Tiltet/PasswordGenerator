@@ -1,11 +1,15 @@
-package labs.passwordgenerator.serviсe;
+package labs.passwordgenerator.service;
 
 import labs.passwordgenerator.model.PasswordGenerator;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
 @Service
-public class PasswordGeneratorService {
+public class PasswordService {
+
+    private PasswordService() {
+        throw new IllegalStateException("Utility class");
+    }
 
     public static PasswordGenerator getRequest(String length) {
         String template = "https://api.api-ninjas.com/v1/passwordgenerator?length=%s";
