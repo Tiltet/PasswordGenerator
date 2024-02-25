@@ -7,9 +7,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 @Service
 public class PasswordGeneratorService {
 
-    public PasswordGeneratorService() {
-
-    }
     public static PasswordGenerator getRequest(String length) {
         String url = String.format("https://api.api-ninjas.com/v1/passwordgenerator?length=%s", length);
 
