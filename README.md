@@ -30,7 +30,7 @@
 </ol>
 
 <h2>Code Quality</h2>
-<p><a href="https://sonarcloud.io/summary/overall?id=YourUsername_passwordgenerator">View the overall code quality status on SonarCloud.</a></p>
+<p><a href="https://sonarcloud.io/summary/overall?id=Tiltet_PasswordGenerator">View the overall code quality status on SonarCloud.</a></p>
 
 <h2>Security</h2>
 <p>The Password Generator service is designed with security in mind. It uses strong encryption algorithms and best practices to ensure that passwords are generated and stored securely.</p>
