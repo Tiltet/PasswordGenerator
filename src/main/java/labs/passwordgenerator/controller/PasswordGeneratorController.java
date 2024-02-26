@@ -1,7 +1,7 @@
 package labs.passwordgenerator.controller;
 
 import labs.passwordgenerator.model.PasswordGenerator;
-import labs.passwordgenerator.serviсe.PasswordGeneratorService;
+import labs.passwordgenerator.service.PasswordGeneratorService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
